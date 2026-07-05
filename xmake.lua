@@ -1,6 +1,6 @@
 target("ImGui")
 	set_kind("static")
-	set_languages("cxx17")
+	set_languages("cxx23")
 
 	set_targetdir ("bin/" .. outputdir .. "/ImGui")
 	set_objectdir ("bin-int/" .. outputdir .. "/ImGui")
